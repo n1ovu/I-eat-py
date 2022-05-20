@@ -1,0 +1,62 @@
+body {
+    background-color: #f1f1f1;
+    font-family: Helvetica;
+}
+
+header {
+	  width: 100%;
+	  margin: auto;
+	  text-align: center;
+}
+
+h1 {
+	  color: blue;
+	  font-size: 4rem;
+	  font-family: 'Lobster', cursive;
+}
+
+h6 {
+	  font-size: 25px;
+	  color: green;
+	  font-family: 'MonteCarlo', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+	  text-align: center;
+}
+
+.main-ctr {
+	  background-color: #f1f1f1;
+	  min-width: 375px;
+}
+
+.description-ctr {
+	  text-align: center;
+	  background-color: rgba(162, 120, 130, .3);
+	  border-radius: 20px;
+	  width: 90%;
+	  margin: auto;
+}
+
+.const-ctr {
+	  text-align: center;
+}
+
+.const-ctr h1 {
+	  color: red;
+	  margin: auto;
+}
+
+.const-ctr p {
+	  font-size: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+    .main-ctr {
+     background-color: lightblue;
+  }
+}

@@ -1,0 +1,152 @@
+body{
+    background-image: radial-gradient(red, yellow, green) ;
+}
+h3 {
+    text-align: center;
+    color: rgb(132, 132, 175);
+    font-size: 24px;
+}
+h4 {
+    color: cornsilk;
+    font-size: 150%;
+}
+p {
+    text-align: center;
+    color: burlywood;
+    font-size: 18px;
+}
+span {
+    color: rgb(255, 80, 80);
+    font-size: 22px;
+}
+img {
+    width: 80px;
+}
+header{
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgb(255, 0, 0), rgb(255, 238, 0));
+}
+.logo-box h1{
+    margin: auto;
+    /* text-align: center; */
+    color: rgb(0, 133, 250);
+    font-size: 30px;
+    
+}
+.contact-ctr h1 {
+    color: mintcream;
+}
+.contact-ctr a {
+    color: navajowhite;
+    text-decoration: none;
+}
+.main-ctr {
+    height: 2200px;
+    text-align: center;
+    background-image: url('../images/Rolls-sand-Bread.jpg');
+    background-position: center;
+    background-size: 270%;
+    border-radius: 10px;
+}
+.logo-box {
+    width: 95%;
+}
+.cup-cake {
+    margin-top: 375px;
+}
+.contact-ctr {
+    text-align: center;
+    color: oldlace;
+}
+.left span {
+    color: rgb(255, 0, 0);
+}
+.social img {
+    width: 15%;
+    border-radius: 100%;
+}
+
+@media only screen and (min-width: 450px) {
+    body {
+        background-color: rgba(0, 255, 255, 0.185);
+    }
+    header {
+        margin-top: 10%;
+    }
+    img{
+        width: 30%;
+    }
+    .main-ctr {
+        height: 100%;
+        background-size: 320%;
+    }
+    .cup-cake {
+        margin-top: 0px;
+    }
+    .cookie {
+        margin-top: 170%;
+    }
+}
+@media only screen and (min-width: 850px) {
+    .logo-box h1{
+        margin-top: 0;
+        font-size: 75px;
+        color: rgb(8, 126, 90);
+    }
+    h3 {
+        font-size: 40px;
+    }
+    p {
+        color: rgb(0, 2, 128);
+        font-size: 25px;
+    }
+    span {
+        font-size: 30px;
+    }
+
+    .main-ctr {
+        background-image: none;
+        background-color: rgba(65, 105, 225, 0.288);
+    }
+    .broadside-box {
+        display: flex;
+    }
+    .cookie {
+        margin-top: 0;
+    }
+    .description-ctr {
+        width: 50%;
+    }
+    .side-image {
+        width: 50%;
+        background-image: url('../images/Rolls-sand-Bread.jpg');
+        background-size: 100%;
+        background-position: center;
+        border-radius: 10px;
+    }
+    .bottom-ctr {
+        display: flex;
+        align-content: space-around;
+    }
+    .contact-ctr a {
+        font-size: 30px;
+    }
+    .left {
+        width: 40%;
+        margin: auto;
+    }
+    .right {
+        width: 40%;
+        margin: auto;
+    }
+}
+@media only screen and (min-width: 1100px) {
+    .logo-box h1 {
+        text-align: center;
+        font-size: 100px;
+        /* margin: auto; */
+    }
+    .side-image {
+        background-size: 350%;
+    }
+}

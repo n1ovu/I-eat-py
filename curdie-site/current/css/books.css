@@ -1,0 +1,29 @@
+.book-ctr {
+  
+  display: flex;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+}
+.book-1, .book-2 {
+  width: 20%;
+  height: 50px;
+  /* border: 1px solid black; */
+}
+
+@media only screen and (min-width: 450px) {
+  .book-1, .book-2 {
+    height: 100px; 
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .book-1, .book-2 {
+    height: 150px; 
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .book-1, .book-2 {
+    height: 250px;
+  }
+}

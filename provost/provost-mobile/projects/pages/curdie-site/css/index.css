@@ -1,0 +1,332 @@
+body{
+    background-image: radial-gradient(red, yellow, green) ;
+}
+h3 {
+    text-align: center;
+    color: rgb(132, 132, 175);
+    font-size: 24px;
+}
+h4 {
+    color: cornsilk;
+    font-size: 150%;
+}
+p {
+    text-align: center;
+    color: burlywood;
+    font-size: 18px;
+}
+span {
+    color: rgb(255, 80, 80);
+    font-size: 22px;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    text-align: left;
+    font-size: 1.3rem;
+    color: rgb(0, 153, 255);
+}
+.description-ctr img {
+    width: 80px;
+    margin-bottom: 50px;
+}
+header, .nav-bottom{
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgb(255, 0, 0), rgb(255, 238, 0));
+}
+.logo-box h1{
+    margin: auto;
+    color: blue;
+    font-size: 30px;
+    
+}
+.contact-ctr h1 {
+    color: mintcream;
+}
+.contact-ctr a {
+    color: navajowhite;
+    text-decoration: none;
+}
+.main-ctr {
+    height: 100%;
+    text-align: center;
+    background-position: center;
+    background-size: 270%;
+    border-radius: 10px;
+    background-color: rgb(12, 53, 53);
+}
+.logo-box {
+    width: 95%;
+    margin: auto;
+}
+.contact-ctr {
+    text-align: center;
+    color: oldlace;
+}
+.left span {
+    color: rgb(255, 0, 0);
+}
+.social img {
+    width: 15%;
+    border-radius: 100%;
+}
+.creator {
+    font-size: 60%;
+    margin-top: 20px;
+}
+.items li {
+    text-align: center;
+    line-height: 160%;
+}
+.nav a {
+    text-decoration: none;
+    padding: 5px;
+    font: 1em sans-serif;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+.nav a:hover {
+    border-radius: 10px;
+    background-color: rgb(53, 245, 181);
+}
+.nav ul {
+    display: inline-flex;
+}
+.left-link {
+    position: absolute;
+    left: 15px;
+}
+.right-link {
+    position: absolute;
+    right: 15px;
+}
+.middle-link {
+    position: relative;
+    left: -25px;
+}
+.left-pic img {
+    margin: auto;
+}
+.right-pic img {
+    margin: auto;
+}
+figcaption {
+    font: 2em sans-serif;
+    color: crimson;  
+}
+button {
+    padding: 5px;
+    margin-bottom: 2rem;
+    color: crimson;
+    font: 1em sans-serif;
+    background-color: aqua;
+    border-radius: 7px;
+    border: none;
+}
+button:hover {
+    cursor: pointer;
+    color: rgb(87, 8, 24);
+    background-color: rgb(8, 141, 141);
+    border-radius: 15px;
+}
+details:hover {
+    color: blueviolet;
+    cursor: pointer;
+    background-color: rgba(9, 255, 0, 0.164);
+} 
+ /* modal effect */
+ #modal1, #modal2 {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: .25rem;
+    background-color: #250c0c;
+}
+#overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .75);
+}
+.subl-ctr h2 {
+    display: none;
+}
+.subl-ctr {
+    margin: auto;
+    padding: 5px;
+    width: 95%;
+    height: 10px;
+    text-align: center;
+}
+.subl {
+    height: 40px;   
+    display: none;
+    color: rgb(35, 222, 255);
+    font-size: 1.5rem;
+}
+.subl-flower {
+    height: 40px;
+    display: none;
+    color: rgb(35, 222, 255);
+    font-size: 1.5rem;
+}
+.subl-bakery {
+    height: 40px;
+    display: none;
+    color: rgb(35, 222, 255);
+    font-size: 1.5rem;
+}
+.open {
+    display: block;
+}
+.top-rose {
+    text-align: center;
+}
+
+@media only screen and (min-width: 450px) {
+    body {
+        background-color: rgba(0, 255, 255, 0.185);
+    }
+    header {
+        margin-top: 10%;
+    }
+    .description-ctr img{
+        width: 30%;
+    }
+    .main-ctr {
+        height: 100%;
+        background-size: 320%;
+    }
+    .subl-ctr h2{
+        display: inline;
+    }
+}
+@media only screen and (min-width: 850px) {
+    .logo-box h1{
+        font-size: 75px;
+        color: blue;
+    }
+    h3 {
+        font-size: 40px;
+    }
+    p {
+        color: rgb(0, 2, 128);
+        font-size: 25px;
+    }
+    span {
+        font-size: 30px;
+    }
+
+    li {
+        color: blue;
+    }
+
+    .main-ctr {
+        background-image: none;
+        background-color: rgba(65, 105, 225, 0.288);
+    }
+    .broadside-box {
+        display: flex;
+    }
+    .cookie {
+        margin-top: 0;
+    }
+    .description-ctr {
+        width: 50%;
+    }
+    .side-image {
+        width: 50%;
+        background-image: url('../images/Rolls-sand-Bread.jpg');
+        background-size: 100%;
+        background-position: center;
+        border-radius: 10px;
+    }
+    .bottom-ctr {
+        display: flex;
+        align-content: space-around;
+    }
+    .contact-ctr a {
+        font-size: 30px;
+    }
+    .left {
+        width: 40%;
+        margin: auto;
+    }
+    .right {
+        width: 40%;
+        margin: auto;
+    }
+    #modal1 p, #modal2 p {
+        color: aquamarine;
+    }
+    figcaption {
+        font: 2em sans-serif;
+        color: rgb(31, 26, 80);  
+    }
+}
+@media only screen and (min-width: 1100px) {
+    .logo-box h1 {
+        font-size: 100px;
+    }
+    .side-image {
+        background-size: 350%;
+    }
+     /* modal effect */
+    #modal1, #modal2 {
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 1px solid black;
+        padding: 1rem;
+        border-radius: .25rem;
+        background-color: #eebdbd;
+    }
+    #modal1 p, #modal2 p {
+        color: blue;
+    }
+    details:hover {
+        color: blueviolet;
+        cursor: pointer;
+        background-color: rgba(9, 255, 0, 0.164);
+    }  
+    #overlay {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, .75);
+    }
+    .subl {
+        height: 40px;
+        display: none;
+        color: rgb(35, 222, 255);
+        font-size: 5rem;
+    }
+    .subl-flower {
+        height: 40px;
+        display: none;
+        color: rgb(35, 222, 255);
+        font-size: 5rem;
+    }
+    .subl-bakery {
+        height: 40px;
+        display: none;
+        color: rgb(35, 222, 255);
+        font-size: 5rem;
+    }
+    .open {
+        display: block;
+    }
+}

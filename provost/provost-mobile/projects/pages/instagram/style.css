@@ -1,0 +1,176 @@
+html {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 130vh;
+}
+body {
+  background-color: #FAFAFA;
+}
+input[type="password"], input[type="text"] {
+  border: 1px solid rgb(207, 209, 211);
+  background-color: #FAFAFA;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  font-size: 11px;
+  width: 75%;
+  height: 35px;
+  margin: 2px;
+}
+input[type="password"] {
+  margin-top: 5px;
+}
+p {
+  color: rgb(173, 177, 182);
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+a:link {
+  text-decoration: none; 
+}
+.main-ctr {
+  justify-content: center;
+  background-color: transparent;  
+  width: 500px;
+  height: 100%;
+}
+.login-ctr {
+  background-color: #FFFFFF;
+  border: 1px solid rgb(207, 209, 211);
+  width: 350px;
+  height: 375px;
+  margin-top: 40px;
+  margin-left: 15%;
+  text-align: center;
+}
+.no-account-ctr {
+  background-color: #FFFFFF;
+  border: 1px solid rgb(207, 209, 211);
+  width: 350px;
+  height: 60px;
+  margin-top: 10px;
+  margin-left: 15%;
+  text-align: center;
+}
+.app-ctr {
+  background-color: transparent;
+  width: 350px;
+  height: 90px;
+  margin-left: 15%;
+}
+.bottom-ctr {
+  margin-top: 60px;
+  margin-left: 10%;
+  width: 400px;
+  height: 110px;
+}
+.logo-box {
+  margin: auto;
+  width: 75%;
+  height: 110px;
+  background-image: url("https://assets.codepen.io/6060109/ig-logo.png");
+  background-size: 100%;
+}
+.sub-box {
+  height: 30px;
+  margin-top: 10px;
+}
+.sub-box > button {
+  background-color: #B2DFFC;
+  width: 77%;
+  height: 100%;
+  border: none;
+  border-radius: 3px;
+  color: white;
+}
+.link-box-1 > a:link {
+  color: #3d62ad;
+  font-weight: 500;
+  font-size: 14px;
+}
+.forgot-box {
+  margin-top: 15px;
+}
+.forgot-box > a:link {
+  color: black;
+  font-size: 12px;
+  font-weight: 400;
+}
+.no-account-ctr > p > a:link {
+  font-size: 14px;
+  color: #33caf0;
+  font-weight: 500;
+}
+.no-account-ctr > p {
+  color: black;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.app-ctr {
+  text-align: center;
+}
+.app-ctr > p {
+  color: black;
+  font-weight: 400;
+}
+.app-image {
+  display:flex;
+  width: 90%;
+  height: 87%;
+}
+.apple {
+  width: 39%;
+  height:50%;
+  background-image: url("https://assets.codepen.io/6060109/IG-app-store-button.png");
+  background-size: 100%;
+  margin-left: 40px;
+  padding-left: 10px;
+}
+.google {
+  width: 40%;
+  height:50%;
+  background-image: url("https://lh3.googleusercontent.com/cjsqrWQKJQp9RFO7-hJ9AfpKzbUb_Y84vXfjlP0iRHBvladwAfXih984olktDhPnFqyZ0nu9A5jvFwOEQPXzv7hr3ce3QVsLN8kQ2Ao=s0");
+  background-size: 100%;
+  margin-left: auto;
+  padding-right: 10px;   
+}
+.links {
+  text-align: center;
+}
+.links a:link {
+  color: rgb(173, 177, 182);
+  font-weight: 600;
+  font-size: 12px;
+}
+.about {
+  padding: 5px;
+}
+.blog {
+  padding: 5px;
+}
+.jobs {
+  padding: 5px;
+}
+.help {
+  padding: 5px;
+}
+.api {
+  padding: 5px;
+}
+.privacy {
+  padding: 5px;
+}
+.terms {
+  padding: 5px;
+}
+.top {
+  padding: 5px;
+}
+.hash {
+  padding: 5px;
+}
+.locations {
+  padding: 5px;
+}

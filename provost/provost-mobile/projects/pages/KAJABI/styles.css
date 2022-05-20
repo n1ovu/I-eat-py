@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+}
+html {
+    font-family: sans-serif;
+    font-size: medium;   
+}
+body {
+    display: flex;
+    background-color: #f7f8f9;
+    justify-content: center;    
+    height: 100vh;   
+}
+input[type="password"], input[type="email"] {
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    width: 73%;
+    height: 25px;
+    padding: 4px;
+}
+.container {   
+    width: 525px;
+    height: 100%;
+    min-width: 525px;
+    
+}
+.content-container {
+    width: 400px;
+    height: 100%;
+    margin: auto;
+    background-color: #fff;
+}
+.top-container {
+    text-align: center;
+}
+.top-container > h5 {
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.top-container > p {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.logo {
+    width: 30%;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+.check-ctr {
+    font-size: 14px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 5px;
+    
+}
+.chech-ctr > input {
+    transform: scale(0.7);
+}
+.subm > input{
+    margin-top: 20px;
+    width: 75%;
+    height: 35px;
+    font-size: 11px;
+    color: #fff;;
+    background-color: #2e91fc;
+    border-radius: 5px;
+    border: none;
+}
+.forgot {
+    color: #697887;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.did-not {
+    margin: 5px;
+}
+
+@media screen and (min-width: 780px) {
+    .container{       
+        height: 90%;
+    }
+    .content-container {
+        margin-top: 40px;
+        box-shadow: 5px 20px 50px rgba(58, 38, 38, 0.2);
+        height: 85%;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        width: 1200px;       
+        height: 90%;
+    }
+    .content-container {
+        margin: 40px 30px;
+        box-shadow: 5px 20px 50px rgba(58, 38, 38, 0.2);
+        height: 85%;
+    }
+    .image-container {
+        margin-top: 40px;
+        margin-left: 0;
+        width: 400px;
+        height:85%;
+        background-image: url("IMG_1118.JPG");
+        background-size: 100%;
+    }
+}
